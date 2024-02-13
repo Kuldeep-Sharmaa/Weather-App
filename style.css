@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #272222;
+  background-color: #8a8f99;
 }
 
 .containter {
@@ -195,6 +195,47 @@ body {
   line-height: 1.5;
 }
 
+.more {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.about {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.about ul {
+  margin: 12px;
+}
+
+.about li {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.about a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007bff; /* Change the color as needed */
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
 .love {
   display: flex;
   justify-content: center;
@@ -202,6 +243,7 @@ body {
   font-family: "Courier New";
   align-items: center;
   color: #8a8f99;
+  margin-bottom: -20px;
 }
 
 .art {
