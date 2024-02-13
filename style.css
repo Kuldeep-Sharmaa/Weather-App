@@ -164,7 +164,7 @@ body {
 }
 
 .error {
-  margin-top: 40px;
+  margin-top: 20px;
   display: none;
   justify-content: center;
   align-items: center;
@@ -173,10 +173,11 @@ body {
 .error h1 {
   font-size: 25px;
   color: #8a8f99;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .error img {
   width: 70%;
+  margin-bottom: 20px;
 }
 
 .error span {
