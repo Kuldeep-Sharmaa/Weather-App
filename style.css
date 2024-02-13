@@ -179,7 +179,13 @@ body {
   width: 70%;
 }
 
-.error p {
+.error span {
+  font-size: 17px;
+  color: #8a8f99;
+  margin-bottom: 5px;
+  text-wrap: nowrap;
+}
+.error ul {
   font-size: 15px;
   color: #8a8f99;
   margin-bottom: 5px;
