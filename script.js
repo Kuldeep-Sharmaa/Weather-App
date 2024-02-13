@@ -9,6 +9,7 @@ const feels_like = document.getElementById("feels-like");
 const pressure = document.getElementById("pressure");
 const error = document.querySelector(".error");
 const main = document.querySelector(".main");
+const country = document.getElementById("country");
 
 // Api
 async function checkWeather(city) {
@@ -42,6 +43,8 @@ async function checkWeather(city) {
   feels_like.innerHTML = `${Math.round(data.main.feels_like - 273.15)}°C`;
   // pressure
   pressure.innerHTML = `${data.main.pressure} mBar`;
+  // country
+  country.innerHTML = `${data.sys.country}`;
   // image-data
   switch (data.weather[0].main) {
     case "Rain":

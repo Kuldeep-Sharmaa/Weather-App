@@ -64,6 +64,7 @@ body {
 /* weather-img */
 .main img {
   width: 60%;
+  margin-top: 10px;
 }
 
 .weather-box {
@@ -115,7 +116,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-top: 9px;
+  margin-top: 0px;
 }
 .country .text {
   font-size: 15px;
